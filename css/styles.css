@@ -1,11 +1,9 @@
-/* Reset des styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -45,6 +43,14 @@ main {
     padding: 20px;
 }
 
+section img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+
 section {
     margin-bottom: 30px;
     padding: 10px;
@@ -54,7 +60,11 @@ section {
 section p {
     text-align: justify;
 }
-
+section h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
 section h3 {
     font-size: 24px;
     margin-bottom: 10px;
